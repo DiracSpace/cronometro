@@ -1,0 +1,31 @@
+div.flexbox-container {
+    justify-content: center;
+    display: flex;
+}
+
+div.flexbox-container-child {
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
+    background-color: #393e46;
+    text-align: center;
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+}
+
+div.panel {
+    display: inline-table;
+    height: 100px;
+}
+
+.text {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 2em;
+}
+
+div.buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
